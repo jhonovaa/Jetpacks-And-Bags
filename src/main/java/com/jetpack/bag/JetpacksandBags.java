@@ -22,6 +22,8 @@ public class JetpacksandBags implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		com.jetpack.bag.item.ModItemGroups.registerItemGroups();
+		com.jetpack.bag.item.ModItems.registerModItems();
 	}
 
 	public static Identifier id(String path) {
